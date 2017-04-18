@@ -1,7 +1,10 @@
-# test coverage for  [react-intl (v2.2.3)](https://github.com/yahoo/react-intl)  [![npm package](https://img.shields.io/npm/v/npmtest-react-intl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-intl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-intl.svg)](https://travis-ci.org/npmtest/node-npmtest-react-intl)
+# npmtest-react-intl
+
+#### test coverage for  [react-intl (v2.2.3)](https://github.com/yahoo/react-intl)  [![npm package](https://img.shields.io/npm/v/npmtest-react-intl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-intl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-intl.svg)](https://travis-ci.org/npmtest/node-npmtest-react-intl)
+
 #### Internationalize React apps. This library provides React components and an API to format dates, numbers, and strings, including pluralization and handling translations.
 
-[![NPM](https://nodei.co/npm/react-intl.png?downloads=true)](https://www.npmjs.com/package/react-intl)
+[![NPM](https://nodei.co/npm/react-intl.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-intl)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-react-intl/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-intl/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-intl/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-intl/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-intl/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-intl/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-react-intl/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-react-intl/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-intl/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-react-intl/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-react-intl%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-react-intl/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-intl/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-react-intl/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-react-intl/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-react-intl%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-intl/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-react-intl/build/test-report.html](https://npmtest.github.io/node-npmtest-react-intl/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-react-intl/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-react-intl/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-react-intl/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-react-intl/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-react-intl/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-intl/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-react-intl/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +36,7 @@
 
 {
     "author": {
-        "name": "Eric Ferraiuolo",
-        "email": "edf@ericf.me"
+        "name": "Eric Ferraiuolo"
     },
     "browser": {
         "./locale-data/index": false,
@@ -42,8 +50,7 @@
     },
     "contributors": [
         {
-            "name": "Caridy Patino",
-            "email": "caridy@gmail.com"
+            "name": "Caridy Patino"
         }
     ],
     "dependencies": {
@@ -148,20 +155,16 @@
     "main": "./lib/index.js",
     "maintainers": [
         {
-            "name": "caridy",
-            "email": "caridy@gmail.com"
+            "name": "caridy"
         },
         {
-            "name": "juandopazo",
-            "email": "dopazo.juan@gmail.com"
+            "name": "juandopazo"
         },
         {
-            "name": "ericf",
-            "email": "eferraiuolo@gmail.com"
+            "name": "ericf"
         },
         {
-            "name": "clarle",
-            "email": "cleung0@gmail.com"
+            "name": "clarle"
         }
     ],
     "module": "./lib/index.es.js",
@@ -170,7 +173,6 @@
     "peerDependencies": {
         "react": "^0.14.0 || ^15.0.0-0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/yahoo/react-intl.git"
